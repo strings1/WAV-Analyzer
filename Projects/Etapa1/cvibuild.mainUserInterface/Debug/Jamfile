@@ -1,0 +1,50 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"c:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "functions.c" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1" ;
+LOCATE on "functions.h" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1" ;
+LOCATE on "mainUserInterface.c" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1" ;
+LOCATE on "mainUserInterface.h" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1" ;
+Object "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj" : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\functions.c" ;
+FILENUM on "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj" = 1 ;
+DEFPROTS on "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj.out" ;
+PrjObjects += "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\functions.obj" ;
+Object "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj" : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\mainUserInterface.c" ;
+FILENUM on "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj" = 2 ;
+DEFPROTS on "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj" = "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj.out" ;
+PrjObjects += "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.obj" ;
+Object "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\resources.res" : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\resources.res" : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.exe" : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.exe" : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\40731\\Desktop\\Important Stuff\\Facultate\\ANUL-III-FACULTATE\\1309B_APD_PR_AlDa\\Projects\\Etapa1\\cvibuild.mainUserInterface\\Debug\\mainUserInterface.exe" ;

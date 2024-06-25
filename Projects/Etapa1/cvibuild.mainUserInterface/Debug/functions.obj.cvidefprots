@@ -1,0 +1,30 @@
+[fillBuffer]
+Class="Function"
+Prototype="void fillBuffer(double *buffer, unsigned int number_of_values, signed char value);"
+SourceLocation="c:\Users\40731\Desktop\Important Stuff\Facultate\ANUL-III-FACULTATE\1309B_APD_PR_AlDa\Projects\Etapa1\functions.c:36:6"
+
+[mediate]
+Class="Function"
+Prototype="void *mediate(double *buffer, unsigned int number_of_values, unsigned int sampleSize);"
+SourceLocation="c:\Users\40731\Desktop\Important Stuff\Facultate\ANUL-III-FACULTATE\1309B_APD_PR_AlDa\Projects\Etapa1\functions.c:52:7"
+
+[getInfo]
+Class="Function"
+Prototype="void getInfo(double *buffer, unsigned int num_of_samples, int *min, int *max, unsigned int *minidx, unsigned int *maxidx, unsigned int *through_zero, double *mean);"
+SourceLocation="c:\Users\40731\Desktop\Important Stuff\Facultate\ANUL-III-FACULTATE\1309B_APD_PR_AlDa\Projects\Etapa1\functions.c:90:6"
+
+[alphaFilter]
+Class="Function"
+Prototype="void *alphaFilter(double *buffer, unsigned int number_of_values, double alpha);"
+SourceLocation="c:\Users\40731\Desktop\Important Stuff\Facultate\ANUL-III-FACULTATE\1309B_APD_PR_AlDa\Projects\Etapa1\functions.c:149:7"
+
+[CalculateEnvelope]
+Class="Function"
+Prototype="struct Envelope CalculateEnvelope(double *signal, int length);"
+SourceLocation="c:\Users\40731\Desktop\Important Stuff\Facultate\ANUL-III-FACULTATE\1309B_APD_PR_AlDa\Projects\Etapa1\functions.c:164:10"
+
+[GetDownSampled]
+Class="Function"
+Prototype="void *GetDownSampled(double *buffer, unsigned int number_of_values, unsigned int downsampledItems, double *downSampledArray, unsigned int *downSampledArray_size);"
+SourceLocation="c:\Users\40731\Desktop\Important Stuff\Facultate\ANUL-III-FACULTATE\1309B_APD_PR_AlDa\Projects\Etapa1\functions.c:211:8"
+
